@@ -21,9 +21,9 @@ import { fileURLToPath } from 'url'
 import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/Purwokerto').format('HH')
+    let wibm = moment.tz('Asia/Purwokerto').format('mm')
+    let wibs = moment.tz('Asia/Purwokerto').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -44,11 +44,11 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://www.instagram.com/kontol_elite'
-global.sgh = 'https://github.com/Jikarinka'
-global.sgc = 'https://chat.whatsapp.com/FF1Bd1U0FHu42rfz6uplbn'
+global.sig = 'https://instagram.com/ditt_turu?igshid=YmMyMTA2M2Y='
+global.sgh = 'https://github.com/Xzcyy'
+global.sgc = '-'
 global.sdc = '-'
-global.snh = 'https://nhentai.net/g/365296/'
+global.snh = '-'
 
 /*============== PAYMENT ==============*/
 global.pdana = '085334930628'
